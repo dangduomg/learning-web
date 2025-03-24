@@ -18,6 +18,8 @@ main {
   background-color: white;
   border-radius: 20px;
   padding: 16px;
+  width: 20%;
+  height: 50%;
 
   h2 {
     font-weight: 700;
