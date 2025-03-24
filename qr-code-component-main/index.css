@@ -1,6 +1,7 @@
 body {
   height: 100vh;
   margin: 0;
+  font-size: 15px;
 }
 
 main {
@@ -12,5 +13,10 @@ main {
 .qr-box {
   margin: auto;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.qr-img img {
+  border-radius: 20px;
 }
