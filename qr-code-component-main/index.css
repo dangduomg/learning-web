@@ -35,6 +35,11 @@ main {
   }
 }
 
-footer {
-  background-color: hsl(216, 15%, 48%);
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
 }
