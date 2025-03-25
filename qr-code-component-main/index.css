@@ -5,11 +5,16 @@ body {
   font-weight: 400;
   font-size: 15px;
   color: hsl(216, 15%, 48%);
+  background-color: hsl(212, 45%, 89%);
+}
+
+h2 {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
 }
 
 main {
   display: flex;
-  background-color: hsl(212, 45%, 89%);
   height: 100%;
 }
 
@@ -22,11 +27,6 @@ main {
   height: min-content;
   box-shadow: 0px 5px 5px hsl(214, 46%, 80%);
   text-align: center;
-
-  h2 {
-    font-weight: 700;
-    color: hsl(218, 44%, 22%);
-  }
 
   .qr-img img {
     border-radius: 20px;
