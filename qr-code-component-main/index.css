@@ -18,13 +18,16 @@ main {
   background-color: white;
   border-radius: 20px;
   padding: 16px;
+  width: min-content;
+  height: min-content;
+  box-shadow: 0px 2px 5px hsl(216, 15%, 48%);
 
   h2 {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
   }
-}
 
-.qr-img img {
-  border-radius: 20px;
+  .qr-img img {
+    border-radius: 20px;
+  }
 }
