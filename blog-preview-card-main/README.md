@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/blog-preview-card-Jgbvj526sP
 - Live Site URL: https://dangduomg.github.io/learning-web/blog-preview-card-main/
 
 ## My process
