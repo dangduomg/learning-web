@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -23,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/qr-code-box-with-flexbox-HhYV-QTK-8
 - Live Site URL: https://dangduomg.github.io/learning-web/qr-code-component-main/
 
 ## My process
@@ -40,6 +40,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Continued development
 
+- Add dark mode (Done)
 - Add transitions
 
 ### Useful resources
@@ -52,7 +53,6 @@ Obviously, these two are indispensable:
 ## Author
 
 - Frontend Mentor - [@dangduomg](https://www.frontendmentor.io/profile/dangduomg)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 ## Acknowledgments
 
