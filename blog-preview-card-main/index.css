@@ -4,9 +4,12 @@
 }
 
 :root {
-  --theme: hsl(47, 88%, 63%);
+  --yellow: hsl(47, 88%, 63%);
+  --yellow-dark: hsl(47, 88%, 35%);
   --gray-900: hsl(0, 0%, 7%);
-  --font-small: 13px;
+
+  --font-small: 14px;
+  --bold: 800;
 }
 
 body {
@@ -14,7 +17,7 @@ body {
   height: 100vh;
 
   font: 500 16px "Figtree", sans-serif;
-  background: var(--theme);
+  background: var(--yellow);
 }
 
 main {
@@ -45,15 +48,11 @@ main {
 
     li {
       border-radius: 4px;
-      padding: 4px 8px;
+      padding: 6px 12px;
 
       font-size: var(--font-small);
-      font-weight: 800;
-      background: var(--theme);
-
-      &:hover {
-        cursor: pointer;
-      }
+      font-weight: var(--bold);
+      background: var(--yellow);
     }
   }
 
@@ -61,9 +60,14 @@ main {
     font-size: var(--font-small);
   }
 
-  .title:hover {
-    cursor: pointer;
-    color: var(--theme);
+  .title {
+    &:hover {
+      color: var(--yellow);
+    }
+
+    &:active {
+      color: var(--yellow-dark);
+    }
   }
 
   .description {
@@ -82,11 +86,20 @@ main {
 
     .author-name {
       margin: 0px 8px;
-      font-weight: 800;
+      font-weight: var(--bold);
     }
   }
 }
 
 h1 {
-  font-weight: 800;
+  font-weight: var(--bold);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:active {
+    color: var(--yellow-dark);
+  }
 }
