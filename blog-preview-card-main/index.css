@@ -31,9 +31,9 @@ main {
   margin: auto;
   padding: 20px;
 
-  border: 2px solid var(--gray-900);
-  border-radius: 10px;
-  box-shadow: 10px 10px var(--gray-900);
+  border: 1px solid var(--gray-900);
+  border-radius: 15px;
+  box-shadow: 8px 8px var(--gray-900);
 
   background: white;
 
@@ -87,12 +87,17 @@ main {
     .author-name {
       margin: 0px 8px;
       font-weight: var(--bold);
+      font-size: var(--font-small);
     }
   }
 }
 
 h1 {
   font-weight: var(--bold);
+}
+
+p {
+  line-height: 1.75;
 }
 
 a {
