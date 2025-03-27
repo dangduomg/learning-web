@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://dangduomg.github.io/learning-web/blog-preview-card-main/
 
 ## My process
 
@@ -50,7 +50,7 @@ Users should be able to:
 
 ### Continued development
 
-- Add dark mode
+No ideas yet :)
 
 ### Useful resources
 
