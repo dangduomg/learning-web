@@ -9,6 +9,7 @@
 }
 
 body {
+  min-height: 200vh;
   font: 400 16px Outfit, sans-serif;
   background: hsl(30, 54%, 90%);
   color: hsl(30, 10%, 34%);
@@ -16,7 +17,7 @@ body {
 
 main {
   display: flex;
-  min-height: 200vh;
+  height: 100%;
 }
 
 article {
@@ -36,6 +37,16 @@ h1,
 h2 {
   font-family: "Young Serif", serif;
   font-weight: 400;
+}
+
+h1 {
+  margin-block: 24px;
+  font-size: 48px;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  font-size: 30px;
   color: hsl(14, 45%, 36%);
 }
 
