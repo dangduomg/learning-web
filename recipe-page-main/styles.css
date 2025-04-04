@@ -9,7 +9,7 @@
 }
 
 body {
-  min-height: 200vh;
+  height: 200vh;
   font: 400 16px Outfit, sans-serif;
   background: hsl(30, 54%, 90%);
   color: hsl(30, 10%, 34%);
