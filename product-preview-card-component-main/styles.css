@@ -22,8 +22,6 @@ h1 {
   font-family: Fraunces, serif;
   font-size: 2.2em;
   line-height: 1em;
-
-  color: var(--green-700);
 }
 
 main {
@@ -56,7 +54,7 @@ main {
   }
 
   .text {
-    padding: 24px;
+    margin: 24px;
 
     .category {
       font-size: 0.8em;
@@ -126,6 +124,7 @@ main {
 
     .text {
       height: 100%;
+      margin: 30px;
 
       .price-tag {
         margin-block: 2em;
