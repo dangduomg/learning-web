@@ -45,11 +45,12 @@ Users should be able to:
 
 - Mobile-first workflow
 - Media queries
+- How to deal with image overflowing over curved borders (`overflow: hidden`)
 
 ### Continued development
 
 - Add dark mode
-- Add animations for button
+- Add animations for button in hover and active states
 
 ## Author
 
