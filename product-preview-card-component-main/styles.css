@@ -1,4 +1,5 @@
 :root {
+  --black: hsl(212, 21%, 14%);
   --cream: hsl(30, 38%, 92%);
   --grey: hsl(228, 12%, 48%);
   --green-500: hsl(158, 36%, 37%);
@@ -22,6 +23,8 @@ h1 {
   font-family: Fraunces, serif;
   font-size: 2.2em;
   line-height: 1em;
+
+  color: var(--black);
 }
 
 main {
