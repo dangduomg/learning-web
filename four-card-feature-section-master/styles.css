@@ -1,0 +1,118 @@
+:root {
+  --gray-400: hsl(212, 6%, 44%);
+  --gray-500: hsl(234, 12%, 34%);
+  --cyan: hsl(180, 62%, 55%);
+  --red: hsl(0, 78%, 62%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+}
+
+/* element styles */
+
+body {
+  margin: 1.5em;
+  font: 400 15px "Poppins", sans-serif;
+}
+
+header {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+/* component styles */
+
+.four-card-container {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-items: center;
+  column-gap: 2em;
+  row-gap: 1em;
+
+  max-width: fit-content;
+}
+
+@media (min-width: 600px) {
+  .four-card-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  .four-card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    :first-child {
+      grid-row: 1 / span 2;
+    }
+
+    :last-child {
+      grid-column: 3;
+      grid-row: 1 / span 2;
+    }
+  }
+}
+
+.card {
+  height: 12em;
+  max-width: 20em;
+  padding-block: 1.5em;
+  padding-inline: 2em;
+
+  border-radius: 4px;
+  border-top: 4px solid;
+
+  box-shadow: 0px 8px 20px 0px #d5dee8;
+
+  .desc {
+    font-size: 0.8rem;
+    color: var(--gray-500);
+  }
+
+  .icon {
+    text-align: right;
+  }
+
+  &.cyan {
+    border-color: var(--cyan);
+  }
+
+  &.red {
+    border-color: var(--red);
+  }
+
+  &.orange {
+    border-color: var(--orange);
+  }
+
+  &.blue {
+    border-color: var(--blue);
+  }
+}
+
+/* misc styles */
+
+.light {
+  font-weight: 300;
+}
+
+.gray {
+  color: var(--gray-400);
+}
