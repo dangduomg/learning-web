@@ -127,7 +127,7 @@ section {
 
   main {
     margin: auto;
-    padding-inline: 14em;
+    padding-inline: 13em;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
