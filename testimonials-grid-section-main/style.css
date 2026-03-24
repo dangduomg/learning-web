@@ -14,7 +14,7 @@
 body {
   margin: 0;
   font: 500 13px "Barlow Semi Condensed";
-  background-color: var(--white);
+  background-color: var(--gray-100);
 }
 
 h1 {
@@ -127,7 +127,7 @@ section {
 
   main {
     margin: auto;
-    padding-inline: 13em;
+    padding-inline: 12em;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
