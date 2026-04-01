@@ -71,45 +71,61 @@ h2 {
     align-items: center;
     padding-block: 0.5em 1.5em;
     padding-inline: 2.5em;
-}
 
-#author {
-    height: 100%;
-    display: flex;
-    gap: 1.25em;
-}
+    #author {
+        height: 100%;
+        display: flex;
+        gap: 1.25em;
+    }
 
-#avatar {
-    width: 3em;
-    height: 100%;
-    border-radius: 50%;
-}
+    #avatar {
+        width: 3em;
+        height: 100%;
+        border-radius: 50%;
+    }
 
-#name-date {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+    #name-date {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-#share-btn {
-    width: 2.5em;
-    height: 2.5em;
+    #share-btn {
+        width: 2.5em;
+        height: 2.5em;
 
-    border: none;
-    border-radius: 50%;
-    background: var(--light-grayish-blue);
-}
+        border: none;
+        border-radius: 50%;
+        background: var(--light-grayish-blue);
+    }
 
-#share-menu {
-    display: none;
-    list-style: none;
+    #share-menu {
+        display: none;
+        /* display: flex */
+        align-items: center;
+        gap: 1em;
+        list-style: none;
+        height: 100%;
 
-    /* when display: flex */
-    height: 100%;
-    align-items: center;
-    gap: 1em;
+        color: var(--grayish-blue);
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+    }
 
-    color: var(--grayish-blue);
-    text-transform: uppercase;
-    letter-spacing: 0.5em;
+    &.show-menu {
+        padding-block: 1em 1em;
+        background: var(--very-dark-grayish-blue);
+
+        #author {
+            display: none;
+        }
+
+        #share-menu {
+            display: flex;
+        }
+
+        #share-btn {
+            background: var(--desat-dark-blue);
+        }
+    }
 }
