@@ -84,12 +84,6 @@ h2 {
         border-radius: 50%;
     }
 
-    #name-date {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
     #share-btn {
         width: 2.5em;
         height: 2.5em;
