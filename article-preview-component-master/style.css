@@ -120,6 +120,17 @@ h2 {
     border: none;
     border-radius: 50%;
     background: var(--light-grayish-blue);
+
+    /* hide text for screen readers */
+    span {
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+    }
   }
 
   #share-menu {
