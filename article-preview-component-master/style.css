@@ -170,8 +170,7 @@ h2 {
       #share-menu {
         position: absolute;
         position-anchor: --share-btn;
-        bottom: anchor(top);
-        right: anchor(right);
+        position-area: start center;
         height: 4em;
         margin-block: 1em;
         padding-inline: 3em;
