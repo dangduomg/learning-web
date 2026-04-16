@@ -55,7 +55,7 @@ h2 {
 
   border-radius: 16px;
   background: white;
-  filter: drop-shadow(0px 32px 32px var(--grayish-blue-shadow));
+  box-shadow: 0px 32px 32px var(--grayish-blue-shadow);
 
   @media (min-width: calc(400px + 2em * 2)) {
     margin-inline: auto;
@@ -188,6 +188,7 @@ h2 {
 
         border-radius: 8px;
         background: var(--very-dark-grayish-blue);
+        box-shadow: 0px 32px 32px var(--grayish-blue-shadow);
       }
 
       #share-btn {
