@@ -1,0 +1,27 @@
+/* css reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* set an element's size to at least the entire viewport */
+.fullscreen {
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+/*  center the child element using margin and flexbox
+    expect only one child element
+*/
+.center-child {
+    display: flex;
+
+    > * {
+        margin: auto;
+    }
+}
