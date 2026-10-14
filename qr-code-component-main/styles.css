@@ -1,0 +1,65 @@
+@import url('/common/styles.css');
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 25%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-300-dark: hsl(218, 44%, 8%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+  --slate-900-dark: hsl(216, 15%, 89%);
+}
+
+body {
+  text-align: center;
+  font: 400 15px "Outfit", sans-serif;
+  color: var(--slate-500);
+  background: var(--slate-300);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--slate-900);
+}
+
+.qr-box {
+  max-width: min-content;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 1rem;
+  background: var(--white);
+  box-shadow: 0px 5px 40px var(--slate-300);
+}
+
+.qr-img img {
+  border-radius: 1rem;
+}
+
+.qr-caption {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Dark mode */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--slate-300);
+    background: var(--slate-900);
+  }
+
+  .qr-box {
+    background: var(--black);
+    box-shadow: 0px 5px 40px var(--slate-300-dark);
+  }
+
+  h1 {
+    color: var(--slate-900-dark);
+  }
+}
