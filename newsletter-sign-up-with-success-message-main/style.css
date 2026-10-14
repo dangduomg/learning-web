@@ -42,6 +42,17 @@ label {
     font-weight: 700;
 }
 
+button {
+    padding: 1rem;
+
+    background-color: var(--blue-800);
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+}
+
 main {
     min-height: 100vh;
 }
@@ -100,17 +111,6 @@ main {
         inline-size: min-content;
         margin-block-end: 3rem;
     }
-}
-
-.button {
-    padding: 1rem;
-
-    background-color: var(--blue-800);
-    color: var(--white);
-    font-size: 0.875rem;
-    font-weight: 700;
-    border: none;
-    border-radius: 0.5rem;
 }
 
 .hidden {
