@@ -1,0 +1,11 @@
+@import url(./common/styles.css);
+
+body {
+    font: 16px Arial, sans-serif;
+}
+
+article {
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
